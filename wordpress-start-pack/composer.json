@@ -1,0 +1,52 @@
+{
+    "name": "wordpress-start-pack",
+    "description": "WordPress Start Pack",
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"http://wpackagist.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "poliondas/wordpress-br": "dev-master",
+        "wpackagist-plugin/akismet":"dev-trunk",
+        "wpackagist-plugin/all-in-one-seo-pack":">=2.2.7",
+        "wpackagist-plugin/all-in-one-wp-migration":">=4.2",
+        "wpackagist-plugin/codepress-admin-columns":"*",
+        "wpackagist-plugin/contact-form-7":">=4.2",
+        "wpackagist-plugin/contact-form-7-to-database-extension":"*",
+        "wpackagist-plugin/export-featured-images":">=1",
+	"wpackagist-plugin/javibola-custom-theme":"*",
+        "wpackagist-plugin/meta-box":">=4.5",
+        "wpackagist-plugin/post-types-order":">=1.8.3",
+        "wpackagist-plugin/taxonomy-terms-order":"*",
+        "wpackagist-plugin/tinymce-advanced":"*",
+        "wpackagist-plugin/updraftplus":"*",
+        "wpackagist-plugin/wordpress-importer":"*",
+        "wpackagist-plugin/wp-email-login":"*",
+        "wpackagist-plugin/wp-mail-smtp":"*",
+	"wpackagist-plugin/wp-maintenance-mode":"*",
+        "wpackagist-plugin/wp-pace":"*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Acme": "src/"
+        }
+    },
+    "extra": {
+        "installer-paths": {
+            "www" : ["poliondas/wordpress-br"],
+            "www/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+            "www/wp-content/themes/{$name}/": ["type:wordpress-theme"]
+        }
+    },
+    "authors": [{
+        "name": "Carlos Eduardo Tormina Mateus",
+        "email": "poliondas@gmail.com",
+        "role": "Developer Web"
+    }],
+    "support": {
+        "email": "poliondas@gmail.com"
+    }
+}
