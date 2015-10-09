@@ -17,7 +17,8 @@
         "wpackagist-plugin/contact-form-7":">=4.2",
         "wpackagist-plugin/contact-form-7-to-database-extension":"*",
         "wpackagist-plugin/export-featured-images":">=1",
-	"wpackagist-plugin/javibola-custom-theme":"*",
+        "wpackagist-plugin/google-analytics-dashboard-for-wp ":"*",
+        "wpackagist-plugin/javibola-custom-theme":"*",
         "wpackagist-plugin/meta-box":">=4.5",
         "wpackagist-plugin/post-types-order":">=1.8.3",
         "wpackagist-plugin/taxonomy-terms-order":"*",
@@ -26,7 +27,7 @@
         "wpackagist-plugin/wordpress-importer":"*",
         "wpackagist-plugin/wp-email-login":"*",
         "wpackagist-plugin/wp-mail-smtp":"*",
-	"wpackagist-plugin/wp-maintenance-mode":"*",
+        "wpackagist-plugin/wp-maintenance-mode":"*",
         "wpackagist-plugin/wp-pace":"*"
     },
     "autoload": {
